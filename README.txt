@@ -1,0 +1,16 @@
+zackCalendar     该模块定义了与时间日期相关的函数
+zackCommon       该模块定义了一些通用函数
+zackConfig       该模块定义了与配置文件相关的函数
+zackEmail	 该模块定义了与邮件相关的函数
+zackFarm	 该模块定义了与农场相关的函数
+zackGlobal	 该模块定义了一些全局变量（系统路径、软件路径、工作路径）
+zackJobsys	 该模块定义了与项目文件结构相关的函数
+zackLog		 该模块定义了与日志相关的函数
+zackMessage	 该模块定义了与消息相关的函数
+zackMysqldb	 该模块定义了调用数据库相关函数
+zackPipeline	 该模块定义了视效流程相关的函数
+zackQt		 该模块定义了与Qt相关的常用函数
+zackRender	 该模块定义了与渲染相关的函数
+zackShotgun	 该模块定义了与Shoutgun相关的函数
+zackWidgets 	 该模块定义了一些常用的控件
+zackXmlrpc	 该模块定义了调用XMLRPC服务的相关函数
