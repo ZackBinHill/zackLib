@@ -27,7 +27,7 @@ try:
 	import zackGlobal
 	import zackMessage
 	import zackEmail
-except Exception e:
+except Exception,e:
 	print 'Log:  {0}'.format(e)
 
 # ------------------------------ Variables --------------------------------- #
