@@ -21,7 +21,7 @@ import os
 import sys
 import datetime
 import getpass
-import configParser
+import ConfigParser 
 import logging
 try:
 	import zackGlobal
@@ -62,7 +62,7 @@ def _getConfigPath():
 class ZackLogConfig(ConfigParser.ConfigParser):
 	""" Class to get arguments from zackLog configuration file """
 	def __init__(self, path):
-		configParser.configParser.__init__(self)
+		ConfigParser.ConfigParser.__init__(self)
 		self.read(path)
 
 	def getLogMode(self):
